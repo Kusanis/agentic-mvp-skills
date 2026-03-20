@@ -32,13 +32,13 @@ Use skills with superpowers companion skills:
 
 ```dot
 digraph agentic_workflow {
-    "Design" -> "agentic-brainstorming";
-    "Plan" -> "agentic-implementation-planning";
+    "Design" -> "brainstorming";
+    "Plan" -> "writing-plans";
     "Build" -> "core, memory, ui, llm skills";
-    "Verify" -> "agentic-verification";
-    "Debug" -> "agentic-debugging";
-    "Review" -> "agentic-code-review-requests";
-    "Complete" -> "agentic-branch-completion";
+    "Verify" -> "verification-before-completion";
+    "Debug" -> "systematic-debugging";
+    "Review" -> "requesting-code-review";
+    "Complete" -> "finishing-a-development-branch";
 }
 ```
 
