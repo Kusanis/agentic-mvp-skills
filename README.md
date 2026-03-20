@@ -86,7 +86,7 @@ agentic-mvp-skills/
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/YOUR_USERNAME/agentic-mvp-skills.git ~/.config/opencode/agentic-mvp-skills
+git clone https://github.com/Kusanis/agentic-mvp-skills.git ~/.config/opencode/agentic-mvp-skills
 
 # 2. Symlink the plugin
 mkdir -p ~/.config/opencode/plugins
