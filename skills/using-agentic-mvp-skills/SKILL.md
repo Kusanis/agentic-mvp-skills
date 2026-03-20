@@ -44,11 +44,11 @@ digraph agentic_workflow {
 
 ## Skill Priority for Agentic Development
 
-1. **Design first** - Use `agentic-brainstorming` before building any agent
-2. **Plan second** - Use `agentic-implementation-planning` for multi-step features
+1. **Design first** - Use `brainstorming` before building any agent
+2. **Plan second** - Use `writing-plans` for multi-step features
 3. **Implement** - Use core/memory/ui/llm skills for specific components
-4. **Verify** - Use `agentic-verification` before claiming completion
-5. **Debug if needed** - Use `agentic-debugging` for issues
+4. **Verify** - Use `verification-before-completion` before claiming completion
+5. **Debug if needed** - Use `systematic-debugging` for issues
 
 ## When to Use Each Category
 
