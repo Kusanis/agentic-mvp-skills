@@ -1,0 +1,54 @@
+# Environment and secrets
+.env
+.env.*
+*.env
+*.pem
+*.key
+*.token
+credentials.json
+secrets.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+ENV/
+.eggs/
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Node
+node_modules/
+package-lock.json
+npm-debug.log*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Data (local development)
+data/
+*.db
+*.sqlite
+
+# Logs
+*.log
+
+# Test coverage
+.coverage
+htmlcov/
+.pytest_cache/
